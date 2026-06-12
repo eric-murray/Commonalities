@@ -476,8 +476,6 @@ components:
           description: |
             The sink URL registered for notifications on this resource, if any.
             `sinkCredential` is deliberately not echoed in responses.
-        sinkCredential:
-          $ref: "../common/CAMARA_event_common.yaml#/components/schemas/SinkCredential"
 
     # ─────────────────────────────────────────────────────────────────────────
     # API-specific event type enum (contains sample-implicit-events placeholders)
